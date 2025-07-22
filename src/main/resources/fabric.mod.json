@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "live-player-data",
+  "version": "${version}",
+  "name": "Live-player-data",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/matip/Live-player-data"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/live-player-data/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "pl.matip.liveplayerdata.Live_player_data"
+    ]
+  },
+  "mixins": [
+    "liveplayerdata.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
