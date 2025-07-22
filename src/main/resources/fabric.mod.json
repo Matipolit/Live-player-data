@@ -16,6 +16,9 @@
       "pl.matip.liveplayerdata.Live_player_data"
     ]
   },
+  "mixins": [
+    "liveplayerdata.mixins.json"
+  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
